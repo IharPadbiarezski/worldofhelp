@@ -4,21 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>WOH</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <header>
+        <div class="header-container">
 
+        <a href="index.html" class="logo">
+            <h1>World of Tanks</h1>
+            <img src="img/logo.png" alt="logo">
+        </a>
+
+        <nav>
+            <a href="index.html" class="active">Главная</a>
+            <a href="about/index.html">О нас</a>
+            <a href="services/index.html">Услуги</a>
+            <a href="contact/index.html">Контакты</a>
+        </nav>
+
+        </div>
     </header>
 
     <main>
-        Hello Dear Friends!
+        <!-- Slide Show Container -->
+      <div class="slideshow-container">
+            <div class="slides fade slide-bg-1">
+              <div class="slide-position">
+                <h2>Не тратьте время на прокачку техники! Мы сделаем это за Вас!</h2>
+              </div>
+            </div>
+
+            <div class="slides fade slide-bg-2">
+              <div class="slide-position">
+                <h2>Только лучшие аккаунты!</h2>
+              </div>
+            </div>
+            <div class="slides fade slide-bg-3">
+              <div class="slide-position">
+               <h2>Заказывай только у проверенных!</h2>
+              </div>
+            </div>
+            </div>
+            <a class="prev" onclick="plusIndex(-1)">&#10094;</a>
+           <a class="next" onclick="plusIndex(+1)">&#10095;</a>
+          </div>
+    
+          <div class="navdots">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+          </div>
+
+          <section class="description">
+                <h3>Жизненно</h3>
+                <p><a href="http://worldoftanks.ru" title="worldoftanks.ru"> World of Tanks</a> - это игра, которая оъеденила многих, в то же время, которая успела и свести лбами союзников. Порой сидя на работе, ты осознаешь, что многих танков у тебя еще нет, и мечтаешь о том , чтобы они поюыстрее прокачались, а то и вовосе найти хороший аккаунт с премами и  анками 10 лвл. Но  увы, в этом мире чудес не случается. Хотя пождите, случаются :) По многичисленным просьам мы открыли свой сервис. И теперь каждый может воспользоваться нашими услугами и наслаждаться игрой, а не нудным прокачиванием техники. Если ты искал это, не упускай момент и свяжись с нами как можно скорее. </p>
+          </section>
+    
     </main>
 
     <footer>
 
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
