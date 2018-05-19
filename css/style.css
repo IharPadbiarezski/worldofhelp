@@ -61,7 +61,7 @@ main {
 /*SLIDER NEW*/
 
 .slideshow-container {
-    width: 100vw;
+    width: 100%;
     position: relative;
     color: #fff;
   }
@@ -103,8 +103,8 @@ main {
   
   .slides {
     display: none;
-    width: 100vw;
-    height: 440px;
+    width: 100%;
+    height: calc(100vh - 160px);
   }
   
   
